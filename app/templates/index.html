@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CEarch - Programming CEP Search</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="Evandro Silva">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='_CSS/style.css') }}"/>
+    </head>
+    <body>
+        <div class="cx-box-main">
+            <div class="cx-box-title">
+                <h1>Write your CEP to get the street</h1>
+            </div>
+            <div class="cx-box-inputs">
+                <form id='form' method="post" action="/search_cep">
+                    <div class="inputs">
+                        <input class="input-text-cep" type="text" placeholder="write your cep..." name="cep" id="cep" required="required"/>
+                        <input class="input-button-cep" type="submit" value="Search" name="search" id="send_cep_button"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

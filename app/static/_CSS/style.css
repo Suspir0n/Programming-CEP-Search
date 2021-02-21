@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: #F8F8FF;
+}
+.cx-box-main{
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: #ABE188;
+}
+.cx-box-inputs{
+    margin: 0 auto;
+}
+.cx-box-title{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+.cx-box-data{
+    color: #008000;
+    font-size: 1.5em;
+    text-align: center;
+}
+.input-text-cep{
+    width: 80%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #008000;
+}
+.input-button-cep{
+    width: 10%;
+    padding: 12px;
+    border-radius: 20px;
+    color: #fff;
+    background: #008000;
+    border: 1px solid #008000;
+}
+.input-button-cep:hover{
+    background: #2B4141;
+    border: 1px solid #2B4141;
+}
