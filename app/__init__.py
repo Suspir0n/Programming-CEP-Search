@@ -17,6 +17,8 @@ def index():
 
 @_app.route('/search_cep', methods=['GET'])
 def response(data):
+    if data != str(data):
+        data = 'Este CEP não existe ou é invalido'
     return render_template('response.html', data=data)
 
 
